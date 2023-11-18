@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  font-family: "Maven Pro", sans-serif;
+}
+.logo {
+  display: flex;
+  filter: blur(5px);
+}
+
+.popup {
+  position: fixed;
+  top: 10%;
+  left: calc(50% - 170px);
+  display: flex;
+  padding: 12px 24px;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  background-color: rgb(255, 163, 26);
+  border-radius: 12px;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.logoContainer {
+  width: 50px;
+  height: 50px;
+}
+
+.logo18 {
+  display: flex;
+  border: 1px solid red;
+  width: 50px;
+  height: 50px;
+}
+
+.popup button {
+  border: 0;
+  width: 120px;
+  height: 30px;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+
+.popup button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.background-container-hidden img {
+  display: none;
+}
+
+.background-container-visible {
+  display: block;
+}
+
+.surprise {
+  position: fixed;
+  top: 10%;
+  left: calc(50% - 170px);
+  align-items: center;
+  width: 340px;
+}
