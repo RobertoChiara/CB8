@@ -10,13 +10,11 @@ const getFetchFn = async (BASE_URL) => {
     return data;
   } catch (error) {
     console.error("Fetch Error: ", error);
-    throw error; // Rilancia l'errore per gestirlo al livello superiore, se necessario
+    throw error;
   } finally {
     console.log("Fetch completed");
   }
 };
-
-//mi imposto un array dell'oggetto data risultante del return
 
 // mi richiamo l'URL con la funzione=fetch e risolvo la promise risultante con il .then
 getFetchFn("https://picsum.photos/v2/list").then((data) => {
