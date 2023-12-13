@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 550px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.search {
+  border: 2px solid rgb(0, 187, 255);
+  border-radius: 12px;
+  height: auto;
+  width: 150px;
+}
