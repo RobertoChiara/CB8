@@ -45,6 +45,7 @@ const GalleryCard = () => {
         src="https://picsum.photos/250/300?7"
         alt="image"
       />
+      <div></div>
     </div>
   );
 };
