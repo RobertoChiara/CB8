@@ -39,6 +39,12 @@ const GalleryCard = () => {
         src="https://picsum.photos/250/300?6"
         alt="image"
       />
+      <img
+        id="img7"
+        className="Gallery__A"
+        src="https://picsum.photos/250/300?7"
+        alt="image"
+      />
     </div>
   );
 };
