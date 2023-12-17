@@ -70,35 +70,34 @@ function App() {
       title: "Image card",
     },
   ];
-
   const galleryList = [
     {
-      id: "img1",
+      id: 1,
       src: "https://picsum.photos/250/300?1",
       alt: "image",
     },
     {
-      id: "img2",
+      id: 2,
       src: "https://picsum.photos/250/300?2",
       alt: "image",
     },
     {
-      id: "img3",
+      id: 3,
       src: "https://picsum.photos/250/300?3",
       alt: "image",
     },
     {
-      id: "img4",
+      id: 4,
       src: "https://picsum.photos/250/300?4",
       alt: "image",
     },
     {
-      id: "img5",
+      id: 5,
       src: "https://picsum.photos/250/300?5",
       alt: "image",
     },
     {
-      id: "img6",
+      id: 6,
       src: "https://picsum.photos/250/300?6",
       alt: "image",
     },
