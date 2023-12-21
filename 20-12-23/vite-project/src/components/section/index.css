@@ -1,0 +1,37 @@
+.suggested__section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 19%;
+}
+
+.search__section {
+  position: fixed;
+  border: 1px solid lightgrey;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.search-bar {
+  border-radius: 12px;
+  border: none;
+  margin-left: 2%;
+  max-width: fit-content;
+  padding: 3px;
+  margin-bottom: 8px;
+}
+
+.tags__section {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.person-image {
+  border: 1px solid lightgray;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 3px;
+}
