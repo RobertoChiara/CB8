@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "../../styles/Pokedex.module.scss";
 import Auguri from "../../components/auguri/Auguri.jsx";
-// import PokemonStatsChart from "../../components/chart/PokemonStatsChart.jsx";
+import PokemonStatsChart from "../../components/chart/PokemonStatsChart.jsx";
 //il componente per usare la libreria per il grafico a barre funziona. é collegato con le statistiche ma se lo attivo mi si spacca tutto perché non sò controllare lo stile sinceramente.
 
 export default function Pokedex() {
@@ -70,11 +70,6 @@ export default function Pokedex() {
                   </li>
                 ))}
               </ul>
-              {/* qui il comando della Library, disattivato perché rompe la formattazione ma funziona */}
-              {/* <PokemonStatsChart
-                className={styles.pokeChart}
-                pokemonData={pokemonData}
-              /> */}
             </div>
           )}
 
@@ -104,6 +99,13 @@ export default function Pokedex() {
             )}
           </div>
         </div>
+      </div>
+      {/* qui il comando della Library, disattivato perché rompe la formattazione ma funziona */}
+      <div className={styles.pokeChartContainer}>
+        <PokemonStatsChart
+          className={styles.pokeChart}
+          pokemonData={pokemonData}
+        />
       </div>
       <form className={styles.form} onSubmit={onHandleSubmit}>
         {/* Input per cercare i pokemon con nome o ID */}
