@@ -2,7 +2,40 @@ import Chart from "react-google-charts";
 import { useEffect } from "react";
 
 const PokemonStatsChart = ({ pokemonData }) => {
-  useEffect(() => {}, [pokemonData]);
+  useEffect(() => {
+    // Carica la libreria Google Charts
+    google.charts.load("current", { packages: ["corechart"] });
+    // Imposta la callback per disegnare il grafico
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      // Crea l'array di dati per il grafico
+      const statsData = [
+        ["Stat", "Value"],
+        ...(pokemonData.stats || []).map((stat) => [
+          stat.stat.name,
+          stat.base_stat,
+        ]),
+      ];
+
+      // Converte l'array di dati in un oggetto DataTable
+      const data = google.visualization.arrayToDataTable(statsData);
+
+      // Opzioni del grafico
+      const options = {
+        title: "Pokemon Stats",
+        legend: { position: "none" },
+        vAxis: { minValue: 0, maxValue: 200 },
+      };
+
+      // Crea un'istanza del grafico a barre e lo disegna
+      const chart = new google.visualization.BarChart(
+        document.getElementById("pokemonStatsChart")
+      );
+
+      chart.draw(data, options);
+    }
+  }, [pokemonData]);
 
   return (
     <Chart
@@ -12,17 +45,15 @@ const PokemonStatsChart = ({ pokemonData }) => {
       loader={<div>Loading Chart</div>}
       data={[
         ["Stat", "Value"],
-        ...pokemonData.stats.map((stat) => [stat.stat.name, stat.base_stat]),
+        ...(pokemonData.stats || []).map((stat) => [
+          stat.stat.name,
+          stat.base_stat,
+        ]),
       ]}
       options={{
-        width: 150,
-        height: 300,
-        title: "",
-        vAxis: {
-          minValue: 0,
-          maxValue: 200,
-          color: "red",
-        },
+        title: "Pokemon Stats",
+        legend: { position: "none" },
+        vAxis: { minValue: 0, maxValue: 200 },
       }}
       rootProps={{ "data-testid": "1" }}
     />
