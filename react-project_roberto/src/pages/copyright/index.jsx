@@ -22,10 +22,10 @@ export default function Copyright() {
       </p>
       <p className={styles.text}>
         Data licensing In 2014, following a community-wide consultation, the
-        GBIF Governing Board established a general policy to "ensure that all
+        GBIF Governing Board established a general policy to ensure that all
         species occurrence datasets within the network are associated with
         digital licenses equivalent to one of…three choices supplied by Creative
-        Commons": CC0, under which data are made available for any use without
+        Commons: CC0, under which data are made available for any use without
         restriction or particular requirements on the part of users CC BY, under
         which data are made available for any use provided that attribution is
         appropriately given for the sources of data used, in the manner
