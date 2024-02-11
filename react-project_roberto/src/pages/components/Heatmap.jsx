@@ -3,6 +3,15 @@ import { Source, Layer } from "react-map-gl";
 import Legend from "./Legend";
 
 const Heatmap = ({ speciesData, selectedSpecies }) => {
+  // Controlli per il deploy
+  if (!Array.isArray(speciesData) || speciesData.length === 0) {
+    return null;
+  }
+
+  if (!selectedSpecies) {
+    return null;
+  }
+  //
   const filteredSpeciesData = speciesData.filter(
     (species) => species.species === selectedSpecies
   );

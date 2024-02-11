@@ -37,7 +37,7 @@ const ImagePopup = ({ selectedSpecies }) => {
           className={styles.popup}
           src={imageUrl}
           alt="Species"
-          width={300}
+          width={350}
           height={300}
         />
       )}
