@@ -1,0 +1,17 @@
+.legend {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgba(211, 211, 211, 0.5);
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px;
+
+  .legendchart {
+    display: flex;
+    flex-direction: row;
+  }
+}
