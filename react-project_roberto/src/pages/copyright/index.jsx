@@ -34,13 +34,13 @@ export default function Copyright() {
         the use is not for commercial purposes As of August 2016, all
         open-access species occurrence datasets on GBIF.org carry standardized,
         machine-readable licences. These changes improve transparency and
-        reproducibility and support GBIF's mission to promote free and open
-        access to biodiversity data. GBIF provides its open-access
-        infrastructure to support scientific understanding and improve
-        biodiversity and conservation outcomes. We will continue to promote
-        attribution (CC BY) as the standard practice for citing GBIF-mediated
-        data, believing that it reflects an established norm that the
-        communities we serve use to cite original work.
+        reproducibility and support GBIF mission to promote free and open access
+        to biodiversity data. GBIF provides its open-access infrastructure to
+        support scientific understanding and improve biodiversity and
+        conservation outcomes. We will continue to promote attribution (CC BY)
+        as the standard practice for citing GBIF-mediated data, believing that
+        it reflects an established norm that the communities we serve use to
+        cite original work.
       </p>
     </div>
   );
