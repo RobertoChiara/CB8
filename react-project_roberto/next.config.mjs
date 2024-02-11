@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    remotePatterns: ["images.pexels.com"],
+    domains: ["images.pexels.com"],
   },
 };
 
