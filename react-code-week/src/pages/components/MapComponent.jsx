@@ -18,7 +18,7 @@ const MapComponent = ({ speciesData, selectedSpecies }) => {
         }}
         mapStyle="mapbox://styles/mapbox/dark-v11"
       >
-        {speciesData.length > 0 && (
+        {Array.isArray(speciesData) && speciesData.length > 0 && (
           <Heatmap
             speciesData={speciesData}
             selectedSpecies={selectedSpecies}
