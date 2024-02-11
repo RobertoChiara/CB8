@@ -1,0 +1,57 @@
+.main {
+  font-family: "Maven Pro", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+
+  .title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  }
+
+  .description {
+    font-size: 1.5rem;
+    color: lightgray;
+    line-height: 1.5;
+  }
+
+  .dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #104812;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #104812;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+
+    &:hover,
+    &:focus {
+      border-color: #1cda1c;
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}

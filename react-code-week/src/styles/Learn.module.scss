@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #104812;
+  border-radius: 8px;
+
+  .homeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #104812;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    transition: color 0.3s ease;
+  }
+
+  .title {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-size: 16px;
+    color: #1cda1c;
+    line-height: 1.5;
+  }
+}
