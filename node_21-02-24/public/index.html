@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercitazione_21-02-24</title>
+  </head>
+  <body>
+    <h1>Benvenuto all'API di libri!</h1>
+    <p>
+      Questa è la homepage dell'applicazione. Qui puoi trovare un link diretto
+      all'endpoint principale dell'API che offre l'elenco completo dei libri:
+    </p>
+    <a href="/api/books">Visualizza l'elenco completo dei libri</a>
+
+    <h2>Ricerca libri</h2>
+    <form action="/api/books/search" method="GET">
+      <label for="searchKeyword">Inserisci una parola chiave:</label>
+      <input
+        type="text"
+        id="searchKeyword"
+        name="keyword"
+        placeholder="Inserisci titolo, autore o ID del libro"
+        required
+      />
+      <button type="submit">Cerca</button>
+    </form>
+  </body>
+</html>
