@@ -1,11 +1,10 @@
 const authorize = (req, res, next) => {
   const { userName } = req.query;
-  const { password } = req.query;
 
-  if (userName === "admin" && password === "admin") {
+  if (userName === "admin") {
     next();
   } else {
-    console.log(userName, password);
+    console.log(userName);
     res.status(401).send("Unauthorized");
   }
 };

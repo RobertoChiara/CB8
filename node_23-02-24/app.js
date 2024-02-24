@@ -3,7 +3,6 @@ const app = express();
 const port = 7000;
 const bodyParser = require("body-parser");
 const authorize = require("./auth");
-
 app.use(express.static("public"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -18,10 +17,9 @@ app.get("/enter", (req, res) => {
 
 app.post("/mostra-dati", (req, res) => {
   const { userName } = req.body;
-  const { password } = req.body;
 
-  if (userName && password) {
-    res.status(200).send("Welcome ${userName}");
+  if (userName) {
+    res.status(200).send(`Welcome ${userName}`);
   }
   res.status(400).send("Please enter all the details");
 });
