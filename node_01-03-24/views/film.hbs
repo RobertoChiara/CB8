@@ -1,0 +1,21 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista film</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h2>Films</h2>
+    {{#each film}}
+      <div class="container">
+        <h2 class="title">{{this.titolo}}</h2>
+        <p class="direct">{{this.regista}}</p>
+        <p class="info">{{this.anno}}</p>
+        <p class="info">{{this.genere}}</p>
+        <p class="info2">{{this.durata}}</p>
+        <p class="info2">{{this.attori}}</p>
+      </div>
+    {{/each}}
+  </body>
+</html>
