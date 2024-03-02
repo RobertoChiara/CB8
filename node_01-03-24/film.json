@@ -1,0 +1,82 @@
+[
+  {
+    "titolo": "Inception",
+    "regista": "Christopher Nolan",
+    "anno": 2010,
+    "genere": ["Azione", "Avventura", "Sci-Fi"],
+    "durata": 148,
+    "attori": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"]
+  },
+  {
+    "titolo": "The Shawshank Redemption",
+    "regista": "Frank Darabont",
+    "anno": 1994,
+    "genere": ["Drammatico"],
+    "durata": 142,
+    "attori": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"]
+  },
+  {
+    "titolo": "The Godfather",
+    "regista": "Francis Ford Coppola",
+    "anno": 1972,
+    "genere": ["Drammatico", "Crime"],
+    "durata": 175,
+    "attori": ["Marlon Brando", "Al Pacino", "James Caan"]
+  },
+  {
+    "titolo": "The Dark Knight",
+    "regista": "Christopher Nolan",
+    "anno": 2008,
+    "genere": ["Azione", "Crime", "Drammatico"],
+    "durata": 152,
+    "attori": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"]
+  },
+  {
+    "titolo": "Pulp Fiction",
+    "regista": "Quentin Tarantino",
+    "anno": 1994,
+    "genere": ["Crime", "Drammatico"],
+    "durata": 154,
+    "attori": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"]
+  },
+  {
+    "titolo": "Forrest Gump",
+    "regista": "Robert Zemeckis",
+    "anno": 1994,
+    "genere": ["Drammatico", "Romantico"],
+    "durata": 142,
+    "attori": ["Tom Hanks", "Robin Wright", "Gary Sinise"]
+  },
+  {
+    "titolo": "The Matrix",
+    "regista": "Lana Wachowski, Lilly Wachowski",
+    "anno": 1999,
+    "genere": ["Azione", "Sci-Fi"],
+    "durata": 136,
+    "attori": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"]
+  },
+  {
+    "titolo": "Fight Club",
+    "regista": "David Fincher",
+    "anno": 1999,
+    "genere": ["Drammatico"],
+    "durata": 139,
+    "attori": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter"]
+  },
+  {
+    "titolo": "Goodfellas",
+    "regista": "Martin Scorsese",
+    "anno": 1990,
+    "genere": ["Biografia", "Crime", "Drammatico"],
+    "durata": 146,
+    "attori": ["Robert De Niro", "Ray Liotta", "Joe Pesci"]
+  },
+  {
+    "titolo": "The Silence of the Lambs",
+    "regista": "Jonathan Demme",
+    "anno": 1991,
+    "genere": ["Crime", "Drammatico", "Thriller"],
+    "durata": 118,
+    "attori": ["Jodie Foster", "Anthony Hopkins", "Scott Glenn"]
+  }
+]
