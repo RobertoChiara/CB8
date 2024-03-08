@@ -1,0 +1,40 @@
+body {
+  background-color: blanchedalmond;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+body h1 {
+  color: black;
+  text-align: center;
+}
+
+.magliette {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 500px;
+  padding: 20px;
+  list-style: none;
+  background-color: wheat;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #888888;
+  transition: transform 0.35s ease-out;
+}
+
+.magliette:hover {
+  transform: scale(1.1);
+}
+
+.magliette img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/magliette.css" />
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <h1>T-shirt da {{title}}</h1>
+    <a href="/">Go to HomePage</a>
+    {{#each products}}
+      <div class="container">
+        <div class="magliette">
+          <img src="https://picsum.photos/200/300" alt="img" />
+          <h2>{{nome}}</h2>
+          <p>{{taglia}}</p>
+          <p>{{colore}}</p>
+          <p>{{prezzo}}</p>
+        </div>
+      </div>
+    {{/each}}
+  </body>
+</html>

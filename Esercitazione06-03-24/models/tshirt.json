@@ -1,0 +1,218 @@
+{
+  "uomo": [
+    {
+      "id": 1,
+      "nome": "T-shirt uomo blu",
+      "taglia": "M",
+      "colore": "blu",
+      "prezzo": 19.99
+    },
+    {
+      "id": 2,
+      "nome": "T-shirt uomo bianca",
+      "taglia": "L",
+      "colore": "bianco",
+      "prezzo": 15.99
+    },
+    {
+      "id": 3,
+      "nome": "T-shirt uomo nera",
+      "taglia": "XL",
+      "colore": "nero",
+      "prezzo": 17.99
+    },
+    {
+      "id": 4,
+      "nome": "T-shirt uomo grigia",
+      "taglia": "S",
+      "colore": "grigio",
+      "prezzo": 14.99
+    },
+    {
+      "id": 5,
+      "nome": "T-shirt uomo rossa",
+      "taglia": "L",
+      "colore": "rosso",
+      "prezzo": 16.99
+    },
+    {
+      "id": 6,
+      "nome": "T-shirt uomo verde",
+      "taglia": "M",
+      "colore": "verde",
+      "prezzo": 18.99
+    },
+    {
+      "id": 7,
+      "nome": "T-shirt uomo arancione",
+      "taglia": "XL",
+      "colore": "arancione",
+      "prezzo": 20.99
+    },
+    {
+      "id": 8,
+      "nome": "T-shirt uomo viola",
+      "taglia": "S",
+      "colore": "viola",
+      "prezzo": 19.99
+    },
+    {
+      "id": 9,
+      "nome": "T-shirt uomo rosa",
+      "taglia": "M",
+      "colore": "rosa",
+      "prezzo": 15.99
+    },
+    {
+      "id": 10,
+      "nome": "T-shirt uomo gialla",
+      "taglia": "L",
+      "colore": "giallo",
+      "prezzo": 16.99
+    }
+  ],
+  "donna": [
+    {
+      "id": 1,
+      "nome": "T-shirt donna nera",
+      "taglia": "S",
+      "colore": "nero",
+      "prezzo": 22.99
+    },
+    {
+      "id": 2,
+      "nome": "T-shirt donna bianca",
+      "taglia": "M",
+      "colore": "bianco",
+      "prezzo": 19.99
+    },
+    {
+      "id": 3,
+      "nome": "T-shirt donna blu",
+      "taglia": "L",
+      "colore": "blu",
+      "prezzo": 21.99
+    },
+    {
+      "id": 4,
+      "nome": "T-shirt donna grigia",
+      "taglia": "XS",
+      "colore": "grigio",
+      "prezzo": 18.99
+    },
+    {
+      "id": 5,
+      "nome": "T-shirt donna verde",
+      "taglia": "M",
+      "colore": "verde",
+      "prezzo": 20.99
+    },
+    {
+      "id": 6,
+      "nome": "T-shirt donna rossa",
+      "taglia": "S",
+      "colore": "rosso",
+      "prezzo": 23.99
+    },
+    {
+      "id": 7,
+      "nome": "T-shirt donna viola",
+      "taglia": "L",
+      "colore": "viola",
+      "prezzo": 21.99
+    },
+    {
+      "id": 8,
+      "nome": "T-shirt donna rosa",
+      "taglia": "M",
+      "colore": "rosa",
+      "prezzo": 19.99
+    },
+    {
+      "id": 9,
+      "nome": "T-shirt donna arancione",
+      "taglia": "XS",
+      "colore": "arancione",
+      "prezzo": 18.99
+    },
+    {
+      "id": 10,
+      "nome": "T-shirt donna gialla",
+      "taglia": "L",
+      "colore": "giallo",
+      "prezzo": 20.99
+    }
+  ],
+  "bambino": [
+    {
+      "id": 1,
+      "nome": "T-shirt bambino rossa",
+      "taglia": "S",
+      "colore": "rosso",
+      "prezzo": 12.99
+    },
+    {
+      "id": 2,
+      "nome": "T-shirt bambino verde",
+      "taglia": "M",
+      "colore": "verde",
+      "prezzo": 11.99
+    },
+    {
+      "id": 3,
+      "nome": "T-shirt bambino gialla",
+      "taglia": "L",
+      "colore": "giallo",
+      "prezzo": 13.99
+    },
+    {
+      "id": 4,
+      "nome": "T-shirt bambino blu",
+      "taglia": "S",
+      "colore": "blu",
+      "prezzo": 12.99
+    },
+    {
+      "id": 5,
+      "nome": "T-shirt bambino bianca",
+      "taglia": "M",
+      "colore": "bianco",
+      "prezzo": 10.99
+    },
+    {
+      "id": 6,
+      "nome": "T-shirt bambino nera",
+      "taglia": "L",
+      "colore": "nero",
+      "prezzo": 11.99
+    },
+    {
+      "id": 7,
+      "nome": "T-shirt bambino arancione",
+      "taglia": "S",
+      "colore": "arancione",
+      "prezzo": 13.99
+    },
+    {
+      "id": 8,
+      "nome": "T-shirt bambino rosa",
+      "taglia": "M",
+      "colore": "rosa",
+      "prezzo": 10.99
+    },
+    {
+      "id": 9,
+      "nome": "T-shirt bambino viola",
+      "taglia": "L",
+      "colore": "viola",
+      "prezzo": 11.99
+    },
+    {
+      "id": 10,
+      "nome": "T-shirt bambino grigia",
+      "taglia": "S",
+      "colore": "grigio",
+      "prezzo": 12.99
+    }
+  ]
+}
