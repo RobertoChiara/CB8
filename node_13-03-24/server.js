@@ -101,8 +101,14 @@ app.get("/books", (req, res) => {
 
 // Endpoint per aggiungere un nuovo libro
 app.post("/books", (req, res) => {
-  const { title, author } = req.body;
-  const newBook = { id: books.length + 1, title, author };
+  const { title, author, genre, year } = req.body;
+  const newBook = {
+    id: books.length + 1,
+    title,
+    author,
+    genre,
+    year: parseInt(year),
+  };
   books.push(newBook);
   res.redirect("/books");
 });
