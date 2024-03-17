@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Albert Einstein", "birth": 1879 },
+  { "id": 2, "name": "Marie Curie", "birth": 1867 },
+  { "id": 3, "name": "Isaac Newton", "birth": 1643 },
+  { "id": 4, "name": "Charles Darwin", "birth": 1809 },
+  { "id": 5, "name": "Galileo Galilei", "birth": 1564 },
+  { "id": 6, "name": "Stephen Hawking", "birth": 1942 },
+  { "id": 7, "name": "Ada Lovelace", "birth": 1815 },
+  { "id": 8, "name": "Nikola Tesla", "birth": 1856 },
+  { "id": 9, "name": "Jane Goodall", "birth": 1934 },
+  { "id": 10, "name": "Alan Turing", "birth": 1912 }
+]
