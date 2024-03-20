@@ -17,7 +17,7 @@ const bookSchema = new mongoose.Schema({
     default: "No Genre",
   },
   year: {
-    type: Date,
+    type: Number,
     required: true,
     default: 0,
   },
