@@ -13,9 +13,24 @@ db.on("error", (error) => console.error(error));
 db.once("open", () => console.log("Connected to Database"));
 
 app.get("/books", async (req, res) => {
-  const books = await Book.find();
+  const { page = 1, limit = 3 } = req.query;
 
-  res.json(books);
+  try {
+    const books = await Book.find()
+      .limit(limit * 1)
+      .skip((page - 1) * limit)
+      .exec();
+
+    const count = await Book.countDocuments();
+    res.json({
+      books,
+      totalPages: Math.ceil(count / limit),
+      currentPage: page,
+    });
+  } catch (error) {
+    console.log(error.message);
+    res.status(500).json({ message: "Server Error" });
+  }
 });
 
 app.get("/books/:id", async (req, res) => {
